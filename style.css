@@ -1,0 +1,623 @@
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: silver;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  
+      height: calc(var(--vh, 1vh) * 100);
+}
+.modal{
+    width: 50vw;
+    height: 50vh;
+    height: calc(var(--vh, 1vh) * 50);
+}
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    margin-top: 120px;
+    
+}
+footer h5{
+    color: white;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+footer h6{
+    color: white;
+    font-size: 20px;
+    margin: 3px 2px;
+}
+
+.container-footer{
+    
+    width: 100%;
+    background-color: #333333;
+    padding-top: 20px;
+    position: absolute;
+    
+}
+
+.container-footer-content{
+    display: block;
+    align-items: left;
+    
+    flex-direction: row;
+    text-align: center;
+}
+.container-footer-content h3{
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    float: left;
+    color: white;
+    
+}
+.container-footer-content p{
+   float: left;
+   font-size: 14px;
+   color: white;
+   
+}
+
+.footer-menu{
+    float: right;
+    display: block;
+    list-style: none;
+    position: relative;
+    
+}
+.footer-menu ul{
+    display: block;
+    list-style: none;
+}
+.footer-menu ul li{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer-menu  a{
+    color: #cfd2d6;
+    padding: 18px 15px;
+    margin-right: 20px;
+    margin-top: 20%;
+    float: right;
+    text-decoration: none;
+    
+}
+
+
+.footer-menu ul li a:hover{
+    color: #27bcda;
+    
+    
+      @media (max-width:500px) {
+        .footer-menu ul{
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/*Media Queries: Tablet Landscape */
+@media  screen and (max-width : 1060px) {
+    #primary{width: 67%;}
+    #secondary{width: 30%; margin-left: 3%;}
+    
+}
+/*Media Queries: Tablet Portrait */
+@media  screen and (max-width : 768px) {
+    #primary{width: 100%;}
+    #secondary{width: 100%; margin: 0; border: none;}
+}
+
+.container-footer .social{
+    float: right;
+    text-align: center;
+    display: flex;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+    padding: 150px;
+    padding-bottom: 10px;
+    padding-right: 300px;
+    display: flex;
+    margin: 50px;
+    position: relative;
+}
+.footer .social h3{
+    margin: 0;
+    margin-left: 70%;
+    top: -200px;
+    
+}
+.container-footer .social a{
+    margin: 2px;
+    padding-right: 20px;
+        
+}
+.copyright-container{
+    color: #dddddd;
+    float:right;
+    position: relative;
+    margin-right: 50%;
+    margin-top: 300px;
+}
+.copyright-container a{
+    color: #27bcda;
+}
+@media screen and(max-width: 100vh){
+    .row .primary{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.nav-open .nav{
+transform: translateX(0);
+
+}
+
+.nav-open .main{
+transform: translateX(350px);
+
+}
+
+
+.nav {
+width: 360px;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+background: #333333;
+transform: translateX(-350px);
+transition: transform 0.2s;
+overflow: hidden;
+}
+.nav-close{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 15px 25px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+.nav-links-container{
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.nav-text{
+font-size: 22px;
+font-family: Assistant, sans-serif;
+font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-close:hover {
+background: rgba(255, 255, 255, 0.05);
+
+}
+
+.main{
+    transition: transform 0.2s;
+}
+.menu-bar{
+    text-align: center;
+    background: #333333;
+    height: 80px;
+}
+
+    .menu-bar ul{
+        display: inline-flex;
+        list-style: none;
+        color: #dddddd;
+    }
+    .menu-bar ul li{
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+        
+    }
+
+    .menu-bar ul li a{
+        text-decoration: none;
+        color: #dddddd;
+        
+    }
+
+    .active, .menu-bar ul li:hover{
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 3px;
+    }
+    .button{
+        position: absolute;
+        top: 20px;
+    }
+    
+.container{
+text-align: center;
+padding: 20px;
+margin: 0;
+background-image: url(img/50647343-young-engineer-businessman-in-network-server-room.webp);
+height: 300px;
+background-position: center;
+
+}
+.container h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container p{
+    color: #cfd2d6;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container-new{
+    margin: auto;
+
+    
+}
+.container-new-left{
+    position: fixed;
+    float: right;
+    width: 25%;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border-style: groove;
+    margin: auto;
+    margin-right: 3%;
+    position: relative;
+    background-image: url(img/54420176-graphic-designer-at-work-color-swatch-samples-.webp);
+    background-position: center;
+}
+.container-new-left h2{
+    color: white;
+    font-size: 54px;
+}
+
+.container-new-middle{
+    float: right;
+    width: 25%;
+    height: 300px;
+    background: #27bcda;
+    margin: auto;
+    border-radius: 30px;
+    border-style: groove;
+    margin-top: auto;
+    margin-right: 10%;
+    margin-right: 8%;
+    background-image: url(img/88532445-programming-code-abstract-technology-background-of-software-developer-and-computer-script.webp);
+    background-position: center;
+}
+.container-new-middle h2{
+    color: white;
+    font-size: 54px;
+}
+.container-new-middle p{
+    color: white;
+}
+.container-new-right{
+    float: center;
+    width: 25%;
+    height: 300px;
+    background: peru;
+    border-radius: 30px;
+    border-style: groove;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-image: url(img/121163493-data-science-and-deep-learning-artificial-intelligence-analysis-internet-and-modern-technology-conce.webp);
+    background-position: center;
+}
+.container-new-right h2{
+    color: white;
+    font-size: 54px;
+}
+.container-new a{
+    color: #27bcda;
+ }
+.container-newest{
+    margin: auto;
+    text-align: center;
+}
+.container-newest a{
+    color: #27bcda;
+}
+
+.container-newest-one{
+    float: center;
+    width: 25%;
+    height: 300px;
+    background: peru;
+    border-radius: 30px;
+    border-style: groove;
+    margin-top: 22%;
+    margin-left: 5.8%;
+    background-image: url(img/66802540-a-talented-hacker-scanning-online-passwords-database-and-hacking-emails-of-users-with-numbers-codes-.webp);
+    background-position: center;
+}
+.container-newest-one h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 54px;
+    color: white;
+}
+.container-newest-one p{
+    text-align: center;
+    font-size: 18px;
+    color: #cfd2d6;
+}
+.container-newest-two{
+    float: right;
+    width: 25%;
+    height: 300px;
+    background: peru;
+    border-radius: 30px;
+    border-style: groove;
+    margin-top: -290px;
+    margin-right: 3.5%;
+    background-position: center;
+    background-image: url(img/51693547-young-engineer-businesswoman-with-tablet-in-network-server-room.webp);
+}
+.container-newest-two h2{
+    color: white;
+    font-size: 54px;
+    text-align: center;
+}
+.container-newest-three{
+    float: right;
+    width: 25%;
+    height: 300px;
+    background: peru;
+    border-radius: 30px;
+    border-style: groove;
+    margin-top: -290px;
+    margin-right: 8%;
+    background-image: url(img/101744575-businessman-on-blurred-background-using-digital-artificial-intelligence-icon-hologram-3d-rendering.webp);
+    background-position: center;
+}
+.container-newest-three h2{
+    color: white;
+    font-size: 54px;
+    text-align: center;
+}
+
+
+.Contact{
+
+padding: 0;
+margin: 0;
+text-align: center;
+}
+.Contact h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Contact p{
+    font-size: 16px;
+}
+.copyright-container{
+    text-align: center;
+}
+
+.data-science h1{
+    color: black;
+    font-size: 54px;
+    text-align: center;
+}
+.data-science p{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.data-science .link{
+    text-align: center;
+}
+.coding{
+    text-align: center;
+}
+.coding h1{
+    font-size: 54px;
+}
+.coding p{
+    font-size: 18px;
+}
+.Graphics{
+    text-align: center;
+}
+.Graphics h1{
+    font-size: 54px;
+}
+.Graphics p{
+    font-size: 18px;
+}
+.Hacking{
+    text-align: center;
+}
+.Hacking h1{
+    font-size: 54px;
+}
+.Hacking p{
+    font-size: 18px;
+}
+.Networking{
+    text-align: center;
+}
+.Networking h1{
+    font-size: 54px;
+}
+.Networking p{
+    font-size: 18px;
+}
+.AI{
+text-align: center;
+}
+.AI h1{
+    font-size: 54px;
+}
+.AI p{
+    font-size: 18px;
+}
+
+.certification{
+    text-align: center;
+    padding-top: 100px;
+}
+.certification h1{
+    font-size: 54px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.certification hr{
+    width: 300px;
+}
+.certification p{
+    font-size: 18px;
+    margin-left: 25px;
+}
+.container-2{
+    max-width: 300px;
+     height: 250px;
+     background: #fff;
+     margin: 50px auto;
+     box-sizing: border-box;
+     padding: 40px;
+     box-shadow: 0 0 20px rgba(72,98,85,0.6);
+     position: sticky;
+ }
+ .container-2 p{
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 45px;
+     margin-bottom: 20px;
+     color: #486255;
+     letter-spacing: 1px;
+     position: static;
+ }
+ .input, .msg .area{
+     width: 70%;
+     padding: 20px;
+     box-sizing: border-box;
+     margin-bottom: 25px;
+     border: 2px solid #e9eaea;
+     font-size: 14px;
+     border-radius: 5px;
+     outline: none;
+     transition: all 0.5s ease;
+     margin-left: 30%;
+ }
+ .subject{
+    width: 50%;
+    margin-left: 15%;
+ }
+ .login .input{
+     width: 35%;
+     float: left;
+     margin-right: 25px;
+     margin-left: 30%;
+ }
+ .login .input:last-child{
+     margin-right: 0;
+ 
+ }
+ .msg .area{
+     height: 200px;
+     width: 700px;
+ }
+ .btn{
+     width: 200px;
+     background: #486255;
+     height: 45px;
+     text-align: center;
+     line-height: 50px;
+     color: #fff;
+     text-transform: uppercase;
+     margin: 0 auto;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+.About{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.About h1{
+    font-size: 54px ;
+}
+.About p{
+    font-size: 18px;
+}
+.About p span{
+    color: purple;
+}
+.media-links{
+    color: white;
+    text-align: center;
+}
+
+.News{
+    text-align: center;
+}
+.News h1{
+    font-size: 54px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.News h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.News p{
+    font-size: 18px;
+}
+.News .sponsors h1{
+    font-size: 54px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+ .input:focus,
+ .msg .area:focus{
+     border: 2px solid #486255;
+ }
+ ::-webkit-input-placeholder{
+     font-family: "Roboto", sans-serif;
+ }
+ ::-moz-input-placeholder{
+     font-family: "Roboto", sans-serif;
+ }
+ ::-ms-input-placeholder{
+     font-family: "Roboto", sans-serif;
+ }
+ 
