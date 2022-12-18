@@ -9,10 +9,16 @@ body {
     width: 100%;
     min-width: 540px;
     min-height: 700px;
-  
-      
 }
-
+@media only screen and(max-width:600px) {
+    body{
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
 footer{
     bottom: 0;
     left: 0;
@@ -72,7 +78,15 @@ footer h6{
     display: block;
     list-style: none;
     position: relative;
-    
+}
+@media only screen and(max-width:600px) {
+    .footer-menu{
+        float: right;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        position: absolute;
+    }
 }
 .footer-menu ul{
     display: block;
@@ -211,6 +225,13 @@ background: rgba(255, 255, 255, 0.05);
     height: 80px;
     
 }
+@media only screen and(max-width:600px) {
+    .menu-bar{
+        text-align: center;
+        height: 80px;
+        background: #333333;
+    }
+}
 
     .menu-bar ul{
         display: inline-flex;
@@ -222,6 +243,13 @@ background: rgba(255, 255, 255, 0.05);
         margin: 15px;
         padding: 15px;
         
+    }
+    @media only screen and(max-width:600px) {
+        .menu-bar ul li{
+            width: 80px;
+            padding: 8px;
+            margin: 8px;
+        }
     }
 
     .menu-bar ul li a{
@@ -248,7 +276,20 @@ width: 100%;
 min-width: 400px;
 height: 300px;
 background-position: center;
-
+}
+@media only screen and(max-width:600px) {
+    .container, .container h1{
+        width: 100%;
+        height: 200px;
+        font-size: 30px;
+        padding: auto;
+    }
+}
+@media only screen and(max-width:600px) {
+    .container p{
+        font-size: 15px;
+        padding: auto;
+    }
 }
 .container h1{
     color: white;
@@ -263,8 +304,14 @@ background-position: center;
 
 .container-new{
     margin: auto;
-
-    
+}
+@media only screen and(max-width:600px) {
+    .container-new-{
+        width: 12%;
+        height: 60px;
+        font-size: 20px;
+        padding: auto;
+    }
 }
 .container-new-left{
     position: fixed;
@@ -281,6 +328,14 @@ background-position: center;
     position: relative;
     background-image: url(img/54420176-graphic-designer-at-work-color-swatch-samples-.webp);
     background-position: center;
+}
+@media only screen and(max-width:600px) {
+    .container-new-left, .container-new-left h2{
+        width: 12%;
+        height: 60px;
+        font-size: 20px;
+        padding: auto;
+    }
 }
 .container-new-left h2{
     color: white;
@@ -303,6 +358,14 @@ background-position: center;
     background-image: url(img/88532445-programming-code-abstract-technology-background-of-software-developer-and-computer-script.webp);
     background-position: center;
 }
+@media only screen and(max-width:600px) {
+    .container-new-middle, .container-new-middle h2{
+        width: 12%;
+        height: 60px;
+        font-size: 20px;
+        padding: auto;
+    }
+}
 .container-new-middle h2{
     color: white;
     font-size: 54px;
@@ -323,6 +386,14 @@ background-position: center;
     margin-left: 5%;
     background-image: url(img/121163493-data-science-and-deep-learning-artificial-intelligence-analysis-internet-and-modern-technology-conce.webp);
     background-position: center;
+}
+@media only screen and(max-width:600px) {
+    .container-new-right, .container-new-right h2{
+        width: 12%;
+        height: 60px;
+        font-size: 20px;
+        padding: auto;
+    }
 }
 .container-new-right h2{
     color: white;
@@ -353,6 +424,14 @@ background-position: center;
     background-image: url(img/66802540-a-talented-hacker-scanning-online-passwords-database-and-hacking-emails-of-users-with-numbers-codes-.webp);
     background-position: center;
 }
+@media only screen and(max-width:600px) {
+    .container-newest-one, .container-newest-one h2{
+        width: 12%;
+        height: 60px;
+        font-size: 20px;
+        padding: auto;
+    }
+}
 .container-newest-one h2{
     text-align: center;
     font-weight: lighter;
@@ -378,6 +457,14 @@ background-position: center;
     background-position: center;
     background-image: url(img/51693547-young-engineer-businesswoman-with-tablet-in-network-server-room.webp);
 }
+@media only screen and(max-width:600px) {
+    .container-newest-two, .container-newest-two h2{
+        width: 12%;
+        height: 60px;
+        font-size: 20px;
+        padding: auto;
+    }
+}
 .container-newest-two h2{
     color: white;
     font-size: 54px;
@@ -396,6 +483,14 @@ background-position: center;
     margin-right: 8%;
     background-image: url(img/101744575-businessman-on-blurred-background-using-digital-artificial-intelligence-icon-hologram-3d-rendering.webp);
     background-position: center;
+}
+@media only screen and(max-width:600px) {
+    .container-newest-three, .container-newest-three h2{
+        width: 12%;
+        height: 60px;
+        font-size: 20px;
+        padding: auto;
+    }
 }
 .container-newest-three h2{
     color: white;
