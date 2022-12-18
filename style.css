@@ -7,19 +7,19 @@ body {
     background-position: center;
     height: 100%;
     width: 100%;
+    min-width: 540px;
+    min-height: 700px;
   
-      height: calc(var(--vh, 1vh) * 100);
+      
 }
-.modal{
-    width: 50vw;
-    height: 50vh;
-    height: calc(var(--vh, 1vh) * 50);
-}
+
 footer{
     bottom: 0;
     left: 0;
     right: 0;
     width: 100vw;
+    min-width: 540px;
+    min-height: fit-content;
     margin-top: 120px;
     
 }
@@ -108,13 +108,13 @@ footer h6{
 }
 
 /*Media Queries: Tablet Landscape */
-@media  screen and (max-width : 1060px) {
+@media  screen and (max-width : 540px) {
     #primary{width: 67%;}
     #secondary{width: 30%; margin-left: 3%;}
     
 }
 /*Media Queries: Tablet Portrait */
-@media  screen and (max-width : 768px) {
+@media  screen and (max-width : 300px) {
     #primary{width: 100%;}
     #secondary{width: 100%; margin: 0; border: none;}
 }
@@ -154,11 +154,8 @@ footer h6{
 .copyright-container a{
     color: #27bcda;
 }
-@media screen and(max-width: 100vh){
-    .row .primary{
-        grid-template-columns: 1fr;
-    }
-}
+
+
 
 
 
@@ -228,6 +225,7 @@ background: rgba(255, 255, 255, 0.05);
     text-align: center;
     background: #333333;
     height: 80px;
+    
 }
 
     .menu-bar ul{
@@ -262,6 +260,8 @@ text-align: center;
 padding: 20px;
 margin: 0;
 background-image: url(img/50647343-young-engineer-businessman-in-network-server-room.webp);
+width: 100%;
+min-width: 400px;
 height: 300px;
 background-position: center;
 
@@ -286,6 +286,8 @@ background-position: center;
     position: fixed;
     float: right;
     width: 25%;
+    min-width: 350px;
+    min-height: 200px;
     height: 300px;
     margin-top: 20px;
     border-radius: 30px;
@@ -304,6 +306,8 @@ background-position: center;
 .container-new-middle{
     float: right;
     width: 25%;
+    min-width: 350px;
+    min-height: 200px;
     height: 300px;
     background: #27bcda;
     margin: auto;
@@ -326,6 +330,8 @@ background-position: center;
     float: center;
     width: 25%;
     height: 300px;
+    min-width: 350px;
+    min-height: 200px;
     background: peru;
     border-radius: 30px;
     border-style: groove;
@@ -353,6 +359,8 @@ background-position: center;
     float: center;
     width: 25%;
     height: 300px;
+    min-width: 350px;
+    min-height: 200px;
     background: peru;
     border-radius: 30px;
     border-style: groove;
@@ -376,6 +384,8 @@ background-position: center;
     float: right;
     width: 25%;
     height: 300px;
+    min-width: 350px;
+    min-height: 200px;
     background: peru;
     border-radius: 30px;
     border-style: groove;
@@ -393,6 +403,8 @@ background-position: center;
     float: right;
     width: 25%;
     height: 300px;
+    min-width: 350px;
+    min-height: 200px;
     background: peru;
     border-radius: 30px;
     border-style: groove;
