@@ -281,13 +281,12 @@ padding: 20px;
 margin: 0;
 background-image: url(img/50647343-young-engineer-businessman-in-network-server-room.webp);
 width: 100%;
-min-width: 400px;
 height: 300px;
 background-position: center;
 }
 @media only screen and(max-width:600px) {
     .container, .container h1{
-        width: 500px;
+        width: 100%;
         height: 200px;
         font-size: 30px;
         padding: auto;
@@ -325,8 +324,6 @@ background-position: center;
     position: fixed;
     float: right;
     width: 25%;
-    min-width: 350px;
-    min-height: 200px;
     height: 300px;
     margin-top: 20px;
     border-radius: 30px;
@@ -339,10 +336,10 @@ background-position: center;
 }
 @media only screen and(max-width:600px) {
     .container-new-left, .container-new-left h2{
-        width: 12%;
-        height: 60px;
+        width: 8%;
+        height: 30px;
         font-size: 20px;
-        padding: auto;
+        margin-right: 1.5px;
     }
 }
 .container-new-left h2{
@@ -368,10 +365,10 @@ background-position: center;
 }
 @media only screen and(max-width:600px) {
     .container-new-middle, .container-new-middle h2{
-        width: 12%;
-        height: 60px;
+        width: 8%;
+        height: 30px;
         font-size: 20px;
-        padding: auto;
+        margin-right: 1.5px;
     }
 }
 .container-new-middle h2{
@@ -385,8 +382,6 @@ background-position: center;
     float: center;
     width: 25%;
     height: 300px;
-    min-width: 350px;
-    min-height: 200px;
     background: peru;
     border-radius: 30px;
     border-style: groove;
@@ -397,10 +392,10 @@ background-position: center;
 }
 @media only screen and(max-width:600px) {
     .container-new-right, .container-new-right h2{
-        width: 12%;
-        height: 60px;
+        width: 8%;
+        height: 30px;
         font-size: 20px;
-        padding: auto;
+        margin-right: 1.5px;
     }
 }
 .container-new-right h2{
@@ -422,8 +417,6 @@ background-position: center;
     float: center;
     width: 25%;
     height: 300px;
-    min-width: 350px;
-    min-height: 200px;
     background: peru;
     border-radius: 30px;
     border-style: groove;
@@ -434,10 +427,10 @@ background-position: center;
 }
 @media only screen and(max-width:600px) {
     .container-newest-one, .container-newest-one h2{
-        width: 12%;
-        height: 60px;
+        width: 8%;
+        height: 30px;
         font-size: 20px;
-        padding: auto;
+        margin-right: 1.5px;
     }
 }
 .container-newest-one h2{
@@ -455,8 +448,6 @@ background-position: center;
     float: right;
     width: 25%;
     height: 300px;
-    min-width: 350px;
-    min-height: 200px;
     background: peru;
     border-radius: 30px;
     border-style: groove;
@@ -467,10 +458,10 @@ background-position: center;
 }
 @media only screen and(max-width:600px) {
     .container-newest-two, .container-newest-two h2{
-        width: 12%;
-        height: 60px;
+        width: 8%;
+        height: 30px;
         font-size: 20px;
-        padding: auto;
+        margin-right: 1.5px;
     }
 }
 .container-newest-two h2{
@@ -482,8 +473,6 @@ background-position: center;
     float: right;
     width: 25%;
     height: 300px;
-    min-width: 350px;
-    min-height: 200px;
     background: peru;
     border-radius: 30px;
     border-style: groove;
@@ -494,10 +483,10 @@ background-position: center;
 }
 @media only screen and(max-width:600px) {
     .container-newest-three, .container-newest-three h2{
-        width: 12%;
-        height: 60px;
+        width: 8%;
+        height: 30px;
         font-size: 20px;
-        padding: auto;
+        margin-right: 1.5px;
     }
 }
 .container-newest-three h2{
@@ -513,6 +502,11 @@ padding: 0;
 margin: 0;
 text-align: center;
 }
+@media only screen and(max-width:600px) {
+   .Contact h1{
+    font-size: 36px;
+   } 
+}
 .Contact h1{
     font-size: 48px;
     font-weight: bold;
@@ -524,12 +518,25 @@ text-align: center;
 .copyright-container{
     text-align: center;
 }
-
+@media only screen and(max-width:600px) {
+    .data-science h1{
+     font-size: 36px;
+     text-align: left;
+     text-decoration: underline;
+    } 
+ }
 .data-science h1{
     color: black;
     font-size: 54px;
     text-align: center;
 }
+@media only screen and(max-width:600px) {
+    .data-science p{
+     font-size: 12px;
+     text-align: left;
+     
+    } 
+ }
 .data-science p{
     color: black;
     font-size: 18px;
@@ -541,45 +548,115 @@ text-align: center;
 .coding{
     text-align: center;
 }
+@media only screen and(max-width:600px) {
+    .coding h1{
+     font-size: 36px;
+     text-align: left;
+     text-decoration: underline;
+    } 
+ }
 .coding h1{
     font-size: 54px;
 }
+@media only screen and(max-width:600px) {
+    .coding p{
+     font-size: 12px;
+     text-align: left;
+
+    } 
+ }
 .coding p{
     font-size: 18px;
 }
+@media only screen and(max-width:600px) {
+    .Graphics h1{
+     font-size: 36px;
+     text-align: left;
+     text-decoration: underline;
+    } 
+ }
 .Graphics{
     text-align: center;
 }
 .Graphics h1{
     font-size: 54px;
 }
+@media only screen and(max-width:600px) {
+    .Graphics p{
+     font-size: 12px;
+     text-align: left;
+     
+    } 
+ }
 .Graphics p{
     font-size: 18px;
 }
 .Hacking{
     text-align: center;
 }
+@media only screen and(max-width:600px) {
+    .Hacking h1{
+     font-size: 36px;
+     text-align: left;
+     text-decoration: underline;
+    } 
+ }
 .Hacking h1{
     font-size: 54px;
 }
+@media only screen and(max-width:600px) {
+    .Hacking p{
+     font-size: 12px;
+     text-align: left;
+     
+    } 
+ }
 .Hacking p{
     font-size: 18px;
 }
+@media only screen and(max-width:600px) {
+    .Networking h1{
+     font-size: 36px;
+     text-align: left;
+     text-decoration: underline;
+    } 
+ }
 .Networking{
     text-align: center;
 }
 .Networking h1{
     font-size: 54px;
 }
+@media only screen and(max-width:600px) {
+    .Networking p{
+     font-size: 12px;
+     text-align: left;
+     
+    } 
+ }
 .Networking p{
     font-size: 18px;
 }
+@media only screen and(max-width:600px) {
+    .AI h1{
+     font-size: 36px;
+     text-align: left;
+     text-decoration: underline;
+    } 
+ }
 .AI{
 text-align: center;
 }
 .AI h1{
     font-size: 54px;
 }
+@media only screen and(max-width:600px) {
+    .AI p{
+     font-size: 12px;
+     text-align: left;
+    
+    } 
+ }
 .AI p{
     font-size: 18px;
 }
@@ -588,14 +665,25 @@ text-align: center;
     text-align: center;
     padding-top: 100px;
 }
+@media only screen and(max-width:600px) {
+    .certification h1{
+     font-size: 36px;
+     text-align: left;
+     text-decoration: underline;
+    } 
+ }
 .certification h1{
     font-size: 54px;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.certification hr{
-    width: 300px;
-}
+@media only screen and(max-width:600px) {
+    .certification p{
+     font-size: 12px;
+     text-align: left;
+     
+    } 
+ }
 .certification p{
     font-size: 18px;
     margin-left: 25px;
@@ -631,6 +719,27 @@ text-align: center;
      transition: all 0.5s ease;
      margin-left: 30%;
  }
+ @media only screen and (max-width:600px) {
+    .input, .msg .area{
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        border: 2px solid #e9eaea;
+        font-size: 10px;
+        border-radius: 5px;
+        outline: none;
+        transition: all 0.5s ease;
+        margin-left: 20%;
+    }
+    
+ }
+ @media only screen and (max-width:600px) {
+    .subject{
+        width: 35%;
+        margin-left: 10%;
+ }
+}
  .subject{
     width: 50%;
     margin-left: 15%;
@@ -641,6 +750,15 @@ text-align: center;
      margin-right: 25px;
      margin-left: 30%;
  }
+ @media only screen and (max-width:600px) {
+    .login .input{
+        width: 25%;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20%;
+    }
+    
+ }
  .login .input:last-child{
      margin-right: 0;
  
@@ -648,6 +766,12 @@ text-align: center;
  .msg .area{
      height: 200px;
      width: 700px;
+ }
+ @media only screen and (max-width:600px) {
+    .msg .area{
+        height: 150px;
+        width: 500px;
+    }
  }
  .btn{
      width: 200px;
@@ -661,6 +785,14 @@ text-align: center;
      cursor: pointer;
      border-radius: 5px;
  }
+ @media only screen and (max-width:600px) {
+    .About h1{
+        font-size: 36px;
+        text-align: left;
+        text-decoration: underline;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+ }
 .About{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -668,6 +800,13 @@ text-align: center;
 .About h1{
     font-size: 54px ;
 }
+@media only screen and (max-width:600px) {
+    .About p{
+        font-size: 12px;
+        text-align: left;
+        
+    }
+ }
 .About p{
     font-size: 18px;
 }
@@ -678,7 +817,14 @@ text-align: center;
     color: white;
     text-align: center;
 }
-
+@media only screen and (max-width:600px) {
+    .News h1{
+        font-size: 36px;
+        text-decoration: underline;
+        text-align: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+ }
 .News{
     text-align: center;
 }
@@ -686,18 +832,44 @@ text-align: center;
     font-size: 54px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+@media only screen and (max-width:600px) {
+    .News h2{
+        font-size: 24px;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+ }
 .News h2{
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@media only screen and (max-width:600px) {
+    .News p{
+        font-size: 12px;
+        text-align: left;
+    
+    }
+ }
 .News p{
     font-size: 18px;
 }
+@media only screen and (max-width:600px) {
+    .News .sponsors h1{
+        font-size: 36px;
+        text-align: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+ }
 .News .sponsors h1{
     font-size: 54px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+@media only screen and (max-width:600px) {
+    .News .sponsors img{
+        width: 400px ;
+        height: 200px;
+    }
+ }
 
 
 
@@ -720,8 +892,9 @@ text-align: center;
      font-family: "Roboto", sans-serif;
  }
  
- @media screen and (max-width:320px) {
+ @media only screen and (max-width:600px) {
     body {
-        width: 320px;
+        width: 100%;
+        height: 100%;
     }
  }
