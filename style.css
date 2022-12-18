@@ -98,26 +98,10 @@ footer h6{
     color: #27bcda;
     
     
-      @media (max-width:500px) {
-        .footer-menu ul{
-            display: flex;
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-    }
+     
 }
 
-/*Media Queries: Tablet Landscape */
-@media  screen and (max-width : 540px) {
-    #primary{width: 67%;}
-    #secondary{width: 30%; margin-left: 3%;}
-    
-}
-/*Media Queries: Tablet Portrait */
-@media  screen and (max-width : 300px) {
-    #primary{width: 100%;}
-    #secondary{width: 100%; margin: 0; border: none;}
-}
+
 
 .container-footer .social{
     float: right;
@@ -633,3 +617,8 @@ text-align: center;
      font-family: "Roboto", sans-serif;
  }
  
+ @media screen and (max-width:320px) {
+    body {
+        width: 320px;
+    }
+ }
