@@ -10,7 +10,7 @@ body {
     min-width: 540px;
     min-height: 700px;
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:6000px), (min-width:350px) {
     body{
         margin: auto;
         width: 100%;
@@ -28,12 +28,13 @@ footer{
     min-height: fit-content;
     margin-top: 120px;
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:600px), (min-width:350px) {
     footer{
-        width: 100vw;
-        height: 500px;
+        width: 100%;
+        height: 70%;
         font-size: 20px;
-        padding: auto;
+        padding-top: 30px;
+        margin-top: 25px;
     }
 }
 footer h5{
@@ -48,6 +49,18 @@ footer h6{
     margin: 3px 2px;
 }
 
+@media only screen and (max-width:600px), (min-width:350px) {
+    .container-footer{
+    
+        width: 100%;
+        background-color: #333333;
+        padding-top: 20px;
+        position: absolute;
+        height: 70%;
+        
+    }
+    
+}
 .container-footer{
     
     width: 100%;
@@ -57,6 +70,15 @@ footer h6{
     
 }
 
+@media only screen and (max-width:600px), (min-width:350px) {
+    .container-footer-content{
+        display: block;
+        align-items: left;
+        
+        flex-direction: column;
+        text-align: center;
+    }
+}
 .container-footer-content{
     display: block;
     align-items: left;
@@ -88,11 +110,11 @@ footer h6{
 }
 @media only screen and(max-width:600px) {
     .footer-menu{
-        float: right;
-        display: flex;
+        float: left;
+        display: block;
         flex-direction: column;
         list-style: none;
-        position: absolute;
+        position: relative;
     }
 }
 .footer-menu ul{
@@ -112,6 +134,17 @@ footer h6{
     float: right;
     text-decoration: none;
     
+}
+@media screen and (max-width:600px), (min-width:350px) {
+    .footer-menu  a{
+        color: #cfd2d6;
+        padding: 13px 10px;
+        margin-right: 10px;
+        margin-top: 10%;
+        float: right;
+        text-decoration: none;
+        
+    }
 }
 
 
@@ -232,7 +265,7 @@ background: rgba(255, 255, 255, 0.05);
     height: 80px;
     
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:600px), (min-width:350px) {
     .menu-bar{
         text-align: center;
         height: 80px;
@@ -254,7 +287,7 @@ background: rgba(255, 255, 255, 0.05);
     }
     @media only screen and(max-width:600px) {
         .menu-bar ul li{
-            width: 100%;
+            width: 90px;
             padding: 8px;
             margin: 8px;
         }
@@ -284,18 +317,16 @@ width: 100%;
 height: 300px;
 background-position: center;
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:600px), (min-width:350px) {
     .container, .container h1{
         width: 100%;
         height: 200px;
         font-size: 30px;
-        padding: auto;
     }
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:600px), (min-width:350px) {
     .container p{
         font-size: 15px;
-        padding: auto;
     }
 }
 .container h1{
@@ -312,8 +343,8 @@ background-position: center;
 .container-new{
     margin: auto;
 }
-@media only screen and(max-width:600px) {
-    .container-new-{
+@media only screen and(max-width:600px), (min-width:350px) {
+    .container-new{
         width: 12%;
         height: 60px;
         font-size: 20px;
@@ -334,12 +365,13 @@ background-position: center;
     background-image: url(img/54420176-graphic-designer-at-work-color-swatch-samples-.webp);
     background-position: center;
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:600px), (min-width:350px) {
     .container-new-left, .container-new-left h2{
-        width: 8%;
+        width: 250px;
         height: 30px;
         font-size: 20px;
         margin-right: 1.5px;
+        margin-top: 20px;
     }
 }
 .container-new-left h2{
@@ -363,12 +395,13 @@ background-position: center;
     background-image: url(img/88532445-programming-code-abstract-technology-background-of-software-developer-and-computer-script.webp);
     background-position: center;
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:600px), (min-width:350px) {
     .container-new-middle, .container-new-middle h2{
-        width: 8%;
+        width: 250px;
         height: 30px;
         font-size: 20px;
         margin-right: 1.5px;
+        margin-top: 20px;
     }
 }
 .container-new-middle h2{
@@ -390,12 +423,13 @@ background-position: center;
     background-image: url(img/121163493-data-science-and-deep-learning-artificial-intelligence-analysis-internet-and-modern-technology-conce.webp);
     background-position: center;
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:600px), (min-width:350px) {
     .container-new-right, .container-new-right h2{
-        width: 8%;
+        width: 250px;
         height: 30px;
         font-size: 20px;
         margin-right: 1.5px;
+        margin-top: 20px;
     }
 }
 .container-new-right h2{
@@ -425,12 +459,13 @@ background-position: center;
     background-image: url(img/66802540-a-talented-hacker-scanning-online-passwords-database-and-hacking-emails-of-users-with-numbers-codes-.webp);
     background-position: center;
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:600px), (min-width:350px) {
     .container-newest-one, .container-newest-one h2{
-        width: 8%;
+        width: 250px;
         height: 30px;
         font-size: 20px;
         margin-right: 1.5px;
+        margin-top: 20px;
     }
 }
 .container-newest-one h2{
@@ -456,12 +491,13 @@ background-position: center;
     background-position: center;
     background-image: url(img/51693547-young-engineer-businesswoman-with-tablet-in-network-server-room.webp);
 }
-@media only screen and(max-width:600px) {
+@media only screen and(max-width:600px), (min-width:350px) {
     .container-newest-two, .container-newest-two h2{
-        width: 8%;
+        width: 250px;
         height: 30px;
         font-size: 20px;
         margin-right: 1.5px;
+        margin-top: 20px;
     }
 }
 .container-newest-two h2{
@@ -483,10 +519,11 @@ background-position: center;
 }
 @media only screen and(max-width:600px) {
     .container-newest-three, .container-newest-three h2{
-        width: 8%;
+        width: 250px;
         height: 30px;
         font-size: 20px;
         margin-right: 1.5px;
+        margin-top: 20px;
     }
 }
 .container-newest-three h2{
